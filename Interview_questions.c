@@ -147,6 +147,8 @@ int main()
 
 Size of structur with sizeof:
 
+https://www.javatpoint.com/structure-padding-in-c
+
 #include<stdio.h>
 struct example{
    char a;
