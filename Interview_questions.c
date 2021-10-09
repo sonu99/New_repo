@@ -145,4 +145,23 @@ int main()
     return 0; 
 } 
 
+Size of structur with sizeof:
+
+#include<stdio.h>
+struct example{
+   char a;
+   short int b;
+
+};
+
+int main()
+{
+    
+    struct example *obj = NULL;
+    obj++;
+    printf("size of:%d", obj);
+    return 0;
+}
+
+
 
