@@ -165,5 +165,40 @@ int main()
     return 0;
 }
 
+Intesecting link list
+  5->6->
+		      |
+0->1->2->3->4->5->6
 
 
+	while(node_1)
+	{
+		while(node_2)
+		{
+			if (node1 == node2)
+			{
+			return node_1;
+			}
+			node2= node2->next;
+			
+			
+		}
+		node1= node1->next;
+	}
+
+Bit wise oprator:
+
+Check set bit in data
+
+n_set_Bit(int data, int bit)
+{
+   int i, cnt=0;
+   for(i=0;i<31;i++)
+   {
+       if((data>>i)&1)
+	      {
+	         cnt++;
+	      }
+   }
+   
+ }
