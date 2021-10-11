@@ -202,3 +202,8 @@ n_set_Bit(int data, int bit)
    }
    
  }
+
+Volatile keyword in C:
+
+https://www.educba.com/volatile-in-c/
+
