@@ -207,3 +207,141 @@ Volatile keyword in C:
 
 https://www.educba.com/volatile-in-c/
 
+Linux and Device Driver:
+========================
+1> Ioctl 
+2> I/o mapped and Memory mapped
+3> Mutext, semaphore and spin lock.
+4> Usersapce and kernel space difference.
+5> Char driver call flow (application to driver)
+
+
+
+
+
+
+
+
+
+
+Hardware:
+=========
+1> Timer and Counter
+
+C Programming:
+==============
+1> Structure and union difference
+
+
+
+
+
+//1- 15
+  
+
+
+#if 0
+// Initial Candidate approach
+O(n2)
+  
+count(9) - 1
+count (10-99) - 21
+  
+tabulation in recursion using
+int count_digit(int digit, int range)
+{
+  //Write an algorithm for counting the number of digits
+  int data=0;
+  int r=1;
+  for(data; data<=range; data++)
+  {
+    if(rage  r)
+      r=r*10;
+		int test= (data/r);
+    if(test == digit)
+    	count++
+    data++
+	}
+  
+}
+
+#if 0
+int main()
+{
+  int digit = 1, range = 15;
+  
+  count_digit(digit, range);
+}
+#endif
+
+!(n & (n - 1))
+
+int pow_num(int num, int power)
+{
+	return ((num % (power-1) == 1) && (!n & (n - 1));
+}
+
+int main()
+{
+  int count = 0;
+
+  int num = 64, power = 4;
+  count = pow_num(num, power);
+}
+#endif
+
+
+XOR 
+    
+ 1) sorting - O(logn)
+    comparison = O(n)
+  int arr[] = {6, 6, 8, 8, 9};
+
+
+
+==================================================
+Nvidia:
+https://www.geeksforgeeks.org/next-higher-number-with-same-number-of-set-bits/
+	
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+intel interview:
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	
+char a=5;
+const char *ptr =&a;
+a++
+char b=6;
+char const *ptr2=&b
+ptr=&a;
+
+int a[10]={};
+
+>>>>>>>>>>>>>>>>>>>
+Add link list add:
+>>>>>>>>>>>>>>>>>>>
+	
+struct student{
+int roll_n;
+char name[30];
+NODE *next;
+};
+
+addNode(NODE * new_node)
+{
+	print("Enter roll number);
+	scanf("%d",new_node->roll_n);
+	print("Enter name);
+	scanf("%s",new_node->name);
+	
+}
+main()
+{
+   struct student *head=NULL;
+   head = (struct student*)malloc(sizeof(struct student);
+   struct student *new_node=NULL;
+   new_node = (struct student*)malloc(sizeof(struct student);
+   
+   new_node =head;
+   
+		
+}
