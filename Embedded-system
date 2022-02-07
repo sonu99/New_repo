@@ -1,1 +1,2 @@
-DMA:-
+DMA:-it will help to transfer data from peripheral to memory and vice-versa.
+     Peripheral will send DMA-REQ to dma control and controlle will send HLQ request to cpu and system bus will be given to DMA for transfer.
